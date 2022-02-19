@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="text-l flex flex-wrap bg-zinc-100 justify-between p-20">
       {todos.map((todo, index) => (
-        <Box key={index} title={todo.title} complete={todo.completed} />
+        <Box key={index} title={todo.title} isComplete={todo.completed} />
       ))}
     </div>
   );
